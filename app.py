@@ -30,7 +30,7 @@ def home():
 
 @app.route("/pay", methods=["POST"])
 def pay():
-    PAYMONGO_API_KEY = "sk_test_JHpBSvsCPe1AvVNHgmj2gxzd"
+    PAYMONGO_API_KEY = " " #add your own paympongo key
     url = 'https://api.paymongo.com/v1/links'
 
     # Get the total amount from the form submission (assuming you send a total amount)
